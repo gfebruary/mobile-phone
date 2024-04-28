@@ -64,91 +64,52 @@ body {
 .gallery a {
   text-decoration: none;
   color: black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 8rem;
 }
 
 .img1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img1;
 
   background-color: rgb(99, 99, 172);
-  width: 8rem;
-  height: 8rem;
 }
 
 .img2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img2;
   background-color: rgb(219, 170, 138);
-  width: 8rem;
-  height: 8rem;
 }
 .img3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img3;
   background-color: rgb(142, 219, 142);
-  width: 8rem;
-  height: 8rem;
 }
 .img4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img4;
   background-color: rgb(112, 185, 190);
-  width: 8rem;
-  height: 8rem;
 }
 .img5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img5;
   background-color: rgb(248, 163, 215);
-  width: 8rem;
-  height: 8rem;
 }
 .img6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img6;
   background-color: rgb(231, 135, 140);
-  width: 8rem;
-  height: 8rem;
 }
 .img7 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img7;
   background-color: rgb(233, 248, 178);
-  width: 8rem;
-  height: 8rem;
 }
 
 .img8 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img8;
   background-color: rgb(201, 128, 115);
-  width: 8rem;
-  height: 8rem;
 }
 .img9 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: img9;
   background-color: rgb(255, 161, 132);
-  width: 8rem;
-  height: 8rem;
 }
 
 .camera {
