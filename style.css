@@ -51,10 +51,10 @@ body {
   grid-auto-rows: 1rem; */
   grid-template-areas:
     "img1   img2    img3"
-    "img4   img5    img6"
-    "img7   img8    img9";
-  gap: 0.5rem;
-  top: 5rem;
+    "img4   github    img6"
+    "img7   contact    img9";
+  gap: 3rem;
+  top: 6rem;
 
   color: rgb(0, 0, 0);
 
@@ -66,16 +66,26 @@ body {
   color: black;
   border-radius: 1rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
 }
 
-.img1 {
-  grid-area: img1;
+.button-template {
+  div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
 
-  background-color: rgb(99, 99, 172);
+.icon1 {
+  background-image: url("./pics/circle-phone.svg");
+  grid-area: img1;
 }
 
 .img2 {
@@ -90,10 +100,11 @@ body {
   grid-area: img4;
   background-color: rgb(112, 185, 190);
 }
-.img5 {
-  grid-area: img5;
-  background-color: rgb(248, 163, 215);
+.icon5 {
+  background-image: url("./pics/github.svg");
+  grid-area: github;
 }
+
 .img6 {
   grid-area: img6;
   background-color: rgb(231, 135, 140);
@@ -104,8 +115,9 @@ body {
 }
 
 .img8 {
-  grid-area: img8;
-  background-color: rgb(201, 128, 115);
+  grid-area: contact;
+  background-image: url("./pics/circle-phone.svg");
+  background-size: contain;
 }
 .img9 {
   grid-area: img9;
